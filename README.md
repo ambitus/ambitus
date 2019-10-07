@@ -6,7 +6,7 @@
 Ambitus is a project for helping port open source software to run on the mainframe architecture ( whether that be under z/OS, Linux for s390x, or any other maintained operating system for the mainframe architecture). The purpose of having this project is to both have a home for the tooling and best practices for porting the open source software, but also managing the full lifecycle of porting such that projects ported can be upstreamed in a sustainable way.
 
 ## Ports
-Ambitus manages ports according to the defined [porting lifecycle](a).
+Ambitus manages ports according to the defined [porting lifecycle](porting_lifecycle.md).
 
 ### Incubation
 
