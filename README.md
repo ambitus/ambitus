@@ -29,7 +29,7 @@ All ports retain the license of thier respective upstream projects.
 All tooling is licensed under the [Apache 2 license](https://spdx.org/licenses/Apache-2.0.html), and any documentation and non-code will be received and made available under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 ## Governance
-Zorow is a project hosted by the [Open Mainframe Project](https://openmainframeproject.org). This project has established it's own processes for managing day-to-day processes in the project at [GOVERNANCE.md](GOVERNANCE.md).
+Ambitus is a project hosted by the [Open Mainframe Project](https://openmainframeproject.org). This project has established it's own processes for managing day-to-day processes in the project at [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Reporting Issues
 To report a problem, you can open an issue in respective repositry. If the issue is senstive in nature or a security related issue, please do not report in the issue tracker but instead email ambitus-private@lists.openmainframeproject.org.
