@@ -6,30 +6,30 @@ This project aims to be governed in a transparent, accessible way for the benefi
 
 ## Contributor
 
-The contributor role is the starting role for anyone participating in the project and wishing to contribute code.
+The contributor role is the starting role for anyone participating in the project and wishing to contribute code to a port or tool maintained by Ambitus.
 
 # Process for becoming a contributor
 
-* Review the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines to ensure your contribution is inline with the project's coding and styling guidelines.
-* Submit your code as a PR with the appropriate DCO signoff
+* Review the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines.
+* Submit your code as a PR to the correct port or tooling repo.
 * Have your submission approved by the committer(s) and merged into the codebase.
 
 ## Committer
 
-The committer role enables the contributor to commit code directly to the repository, but also comes with the responsibility of being a responsible leader in the community.
+The committer role enables the contributor to commit code directly to a repository, but also comes with the responsibility of being a responsible leader in the community. Committer roles are on a per port/tool basis.
 
 ### Process for becoming a committer
 
 * Show your experience with the codebase through contributions and engagement on the community channels.
 * Request to become a committer.
-* Have the majority of committers approve you becoming a committer.
-* Your name and email is added to the [COMMITTERS.csv](COMMITTERS.csv) file for the project.
+* Have the majority of committers of a given project approve you becoming a committer.
+* Your name, email, and GitHub are added to the [COMMITTERS.csv](COMMITTERS.csv) file indicating which ports/tools you are a committer for.
 
 ### Committer responsibilities
 
 * Monitor email aliases (if any).
 * Monitor Slack (delayed response is perfectly acceptable).
-* Triage GitHub issues and perform pull request reviews for other committers and the community.
+* Triage issues and perform pull request reviews for other committers and the community.
 * Make sure that ongoing PRs are moving forward at the right pace or closing them.
 * In general continue to be willing to spend at least 25% of ones time working on the project (~1.25 business days per week).
 
@@ -39,20 +39,28 @@ If a committer is no longer interested or cannot perform the committer duties li
 should volunteer to be moved to emeritus status. In extreme cases this can also occur by a vote of
 the committers per the voting process below.
 
-## Lead
+## Techincal Steering Committee (TSC)
 
-The project committers will elect a lead ( and optionally a co-lead ) which will be the primary point of contact for the project and representative to the TSC upon becoming an Active stage project. The lead(s) will be responsible for the overall project health and direction, coordination of activities, and working with other projects and committees as needed for the continuted growth of the project.
+The TSC is responsbile for the overall management and direction of the Ambitus project, namely...
+
+- Maintaining the [porting lifecycle](porting_lifecycle.md) and guiding ports through the process.
+- Identifying common tooling and ensuring they have a home in the project.
+- Ensuring all ports and tools have the needed infrastructure to be successful.
+- Mediate any issues within the community.
+
+The TSC members may nominate and elect new members to the TSC amongst the committers to ports and tools.
+
+### TSC Chairperson
+
+The TSC will elect a chairperson or co-chairpersons, which will be the primary point of contact for the project and representative to the Open Mainframe Project TAC upon becoming an Active stage project. The chairperson or co-chairpersons will be responsible for the overall project health and direction, coordination of activities, and working with other projects and committees as needed for the continuted growth of the project.
 
 # Release Process
 
-Project releases will occur on a scheduled basis as agreed to by the committers.
+Each port and tool will maintain it's own release schedule and process. It's expected that any ports align with release guidelines of the upstream project.
 
 # Conflict resolution and voting
 
-In general, we prefer that technical issues and committer membership are amicably worked out
-between the persons involved. If a dispute cannot be decided independently, the committers can be
-called in to decide an issue. If the committers themselves cannot decide an issue, the issue will
-be resolved by voting. The voting process is a simple majority in which each committer receives one vote.
+In general, we prefer that technical issues and committer membership are amicably worked out between the persons involved. If a dispute cannot be decided independently, the TSC can be called in to decide an issue. If the TSC themselves cannot decide an issue, the issue will be resolved by voting. The voting process is a simple majority in which each TSC member receives one vote.
 
 # Communication
 
