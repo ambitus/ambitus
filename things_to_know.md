@@ -1,9 +1,21 @@
-# Things to Know About IBM Z
-IBM Z is similar to, and different from other platforms in many ways.  Although it's
-not possible to review all of these, there are some important things to know that
-can help a lot when you're getting started.
+# Things to Know About IBM Z and Open Source
+IBM Z is similar to, and different from other platforms in many ways.  Open source
+software is fundamentally different from traditional z/OS applications in the way
+it is developed, packaged, and deployed.  Here are some things to know, depending
+on your role:
 
-## IBM Z is a Hardware and Software Family
+- [New to the platform](##ibm-z-platform-characteristics), need to know what IBM Z is
+- [A veteran mainframer](##open-source-software-characteristics), need to understand open source
+  software
+
+
+## IBM Z Platform Characteristics
+The long history of the mainframe often obscures the state-of-the-art features that
+continue to be developed for the IBM Z platform.  It's not an overstatement to point
+out that many key technologies we take for granted as developers, architects, and
+administrators originated on IBM Z.
+
+### IBM Z is a Hardware and Software Family
 [IBM Z](https://www.ibm.com/it-infrastructure/z) is a set of hardware models and a collection of operating systems.
 Although this platform has been around for a long time, it continues to be a vertically
 integrated state-of-the-art compute environment that is the system of record for
@@ -22,10 +34,6 @@ Linux on Z is now over 20 years old, and IBM has been deeply involved as a membe
 of the Linux foundation from the beginning.  The RHEL, SUSE, and Ubuntu distributions
 are all supported, and Linux-on-z (LoZ) is a supported platform by several open
 source projects.
-
-## Platform Characteristics for Developers to Know
-There are two key IBM Z characteristics to be aware of when developing code for
-the platform.
 
 ### IBM Z has a Big Endian Byte Order
 IBM Z hardware stores the more significant bytes of a number in higher locations
@@ -60,11 +68,13 @@ to use on z/OS does not handle text encoding properly, there is work to do.
 
 Also, note that Linux on Z is an ASCII platform, so it does not have this issue.
 
+### z/OS Has a Proprietary Software Management System
+
 ### z/OS has a Unix Layer
 z/OS is one of the first POSIX-compliant Unix platforms that was certified many years
 ago - in the days before Linux existed.  In addition, it has a very old version of
 a [Korn shell](http://www.kornshell.org/), and most of the common access interfaces
-that people expect - ssh, ftp, telnet, ping, curl, ...  These interfaces together
+that people expect - ssh, ftp, telnet, ping, curl, ...  These POSIX interfaces
 make up the _Unix System Services_ layer of z/OS (USS).  Unix System Services is
 baked into the fabric of z/OS, and is more than just a set of APIs and CLIs.
 
@@ -72,10 +82,10 @@ While the default shell environment is capable for basic operational purposes, i
 isn't a modern interface, and doesn't work well as an application development
 environment.
 
-There are current projects like [zowe](https://github.com/zowe), and offerings
-like [IBM Wazi](https://www.ibm.com/products/wazi-for-red-hat-codeready-workspaces) that provide modern infrastructure for z/OS
-application development.  It's also a goal of this project to demonstrate and enable
-various development technologies on z/OS.  So while USS is a key piece of
+There are current open source projects like [zowe](https://github.com/zowe), and
+commercial offerings like [IBM Wazi](https://www.ibm.com/products/wazi-for-red-hat-codeready-workspaces) that provide modern infrastructure
+for z/OS application development.  It's also a goal of this project to demonstrate
+and enable other development technologies on z/OS.  So while USS is a key piece of
 infrastructure that supports these environments, you shouldn't look at it as the
 primary interface for developing code.
 
@@ -87,3 +97,15 @@ a full Docker environment in an address space.  This allows developers to create
 container images on either operating system, and deploy on the other.  Such
 interoperability across environments gives developers and architects more flexibility
 to configure workloads most efficiently.
+
+
+## Open Source Software Characteristics
+Open source software has achieved a level of maturity comparable to the best
+proprietary commercial offerings.  The open world today is much less about a specific
+project or technology stack, and more about the vast organization of technical talent
+across communities, companies, and individuals.  This is where modern standards,
+policies, and best practices are born.
+
+### Everything is Integrated and Continuous
+
+### Security is important
