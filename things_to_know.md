@@ -8,6 +8,8 @@ on your role:
 - [A veteran mainframer](#open-source-software-characteristics), need to understand open source
   software
 
+-----
+-----
 
 ## IBM Z Platform Characteristics
 The long history of the mainframe often obscures the state-of-the-art features that
@@ -54,7 +56,7 @@ open source projects, like TensorFlow handle this well, while many do not.  Byte
 order mismatch problems can occur when trying to deploy an AI model on an IBM Z
 platform that was trained on x/86 hardware.
 
-### z/OS is an EBCDIC Platformmake
+### z/OS is an EBCDIC Platform
 Extended Binary Coded Decimal Interchange Code (EBCDIC) is the default encoding for
 z/OS text files.  z/OS has all of the capabilities to properly manage encodings
 (often referred to as _internationalization_, or I18N), but many developers don't
@@ -114,9 +116,11 @@ container images on either operating system, and deploy on the other.  Such
 interoperability across environments gives developers and architects more flexibility
 to configure workloads most efficiently.
 
+-----
+-----
 
 ## Open Source Software Characteristics
-Open source software has achieved a level of maturity comparable to the best
+Many open source projects have achieved a level of maturity comparable to the best
 proprietary commercial offerings.  The open world today is much less about a specific
 project or technology stack, and more about the vast organization of technical talent
 across communities, companies, and individuals.  This is where modern standards,
