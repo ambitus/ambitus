@@ -82,4 +82,8 @@ primary interface for developing code.
 ### Linux and z/OS can Share Containers
 Linux on Z has always supported container technologies like Docker, and more recently,
 [OpenShift](https://developer.ibm.com/components/ibmz/blogs/willie-tejada-redhat-openshift-ibmz/).
-With release 2.4, z/OS provides [z/OS container extensions](https://www.ibm.com/support/z-content-solutions/container-extensions/)
+With release 2.4, z/OS provides [z/OS container extensions](https://www.ibm.com/support/z-content-solutions/container-extensions/), which creates
+a full Docker environment in an address space.  This allows developers to create
+container images on either operating system, and deploy on the other.  Such
+interoperability across environments gives developers and architects more flexibility
+to configure workloads most efficiently.
