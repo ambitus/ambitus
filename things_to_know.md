@@ -4,8 +4,8 @@ software is fundamentally different from traditional z/OS applications in the wa
 it is developed, packaged, and deployed.  Here are some things to know, depending
 on your role:
 
-- [New to the platform](##ibm-z-platform-characteristics), need to know what IBM Z is
-- [A veteran mainframer](##open-source-software-characteristics), need to understand open source
+- [New to the platform](#ibm-z-platform-characteristics), need to know what IBM Z is
+- [A veteran mainframer](#open-source-software-characteristics), need to understand open source
   software
 
 
@@ -38,7 +38,7 @@ source projects.
 ### IBM Z has a Big Endian Byte Order
 IBM Z hardware stores the more significant bytes of a number in higher locations
 of the memory occupied by that number.  For example, if you have a 32 bit integer
-(4 bytes long), located at address _**a**_, the most significant byte of the number
+(4 bytes long), located at address _**a**_, the most significantmake  byte of the number
 will be located at _**a+3**_, the second most at _**a+2**_, the third most
 at _**a+1**_, and the least significant byte will be at location _**a**_ in memory.
 In other words, the least significant byte is at the lowest memory address.
@@ -54,7 +54,7 @@ open source projects, like TensorFlow handle this well, while many do not.  Byte
 order mismatch problems can occur when trying to deploy an AI model on an IBM Z
 platform that was trained on x/86 hardware.
 
-### z/OS is an EBCDIC Platform
+### z/OS is an EBCDIC Platformmake
 Extended Binary Coded Decimal Interchange Code (EBCDIC) is the default encoding for
 z/OS text files.  z/OS has all of the capabilities to properly manage encodings
 (often referred to as _internationalization_, or I18N), but many developers don't
@@ -69,6 +69,22 @@ to use on z/OS does not handle text encoding properly, there is work to do.
 Also, note that Linux on Z is an ASCII platform, so it does not have this issue.
 
 ### z/OS Has a Proprietary Software Management System
+z/OS has a component named _System Modification Program/Extended_ or
+[SMP/E](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.1.0/com.ibm.zos.v2r1.gim3000/ovrwht.htm) used to install and maintain the system.
+It allows atomic-level fixes for individual bugs, and provides an precise level of
+control over the state of the system without dragging in other changes generally
+bundled in a version update.
+
+Modern development and operation depends on complex layering of interdependent packages
+and pipelines, many of which share basic componentry, but which are also tailored for
+a specific purpose.  It's nearly impossible to separate development from the operation
+and deployment of the environment.
+
+z/OS is the ultimate shared workload deployment platform, and development is not a
+primary use case.  SMP/E reflects this as a package manager, along with z/OS operational
+best practices for deployment.  Modern devOPs can be enabled on a z/OS system, but
+it takes a lot of effort.  It's the goal of this Ambitus project to align open source
+code deployment on z/OS more closely with that of other platforms.
 
 ### z/OS has a Unix Layer
 z/OS is one of the first POSIX-compliant Unix platforms that was certified many years
@@ -109,3 +125,7 @@ policies, and best practices are born.
 ### Everything is Integrated and Continuous
 
 ### Security is important
+
+### Software and Package Management
+
+### A Bootstrap Sandbox Environment
