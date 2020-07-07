@@ -1,25 +1,26 @@
 ![](https://github.com/openmainframeproject/artwork/blob/master/projects/ambitus/ambitus-color.svg)
 
 # Ambitus
-The Ambitus project helps anyone who wants to understand how open source
-software works on the IBM Z platform.  The content provided by members of this
-community should be of use to developers, Linux system administrators, and
-traditional z/OS system programmers.
+The Ambitus project is a community for anyone who wants to understand how open source
+software works on IBM Z (also known as _the mainframe_).  There are more similarities
+than differences between the mainframe and other platforms.  The content provided
+by members of this community should be of use to developers, Linux system
+administrators, and traditional z/OS system programmers.
 
 This project has two major branches:
-- [How-to and example information](./how_to.md) showing how code from other platforms can be
-  developed, deployed and managed on IBM Z.
-- A home for [projects being ported to IBM Z](./ported_projects.md).  These ports are downstream from the
-  original project, and upstream from the IBM Z platform.  Developers can
-	make their efforts more visible to others as they work, and share their experiences
-	more easily.  The goal is for teams to upstream their changes over time to the
-	original project, enhancing the adoption of IBM Z as a supported platform.
+- [How-to and example information](./how_to.md) showing how code from other platforms
+  can be developed, deployed and managed for the mainframe.
+- A home for [projects being ported to the mainframe](./ported_projects.md).  These
+  ports are downstream from the original project, and upstream from the IBM Z platform.
+  Developers can make their efforts more visible to others as they work, and share
+  their experiences more easily.  The goal is for teams to upstream their changes over
+  time to the original project, enhancing the adoption of IBM Z as a supported platform.
 
 If you're new to the platform, you may first want to review
 some [things to know about IBM Z](./things_to_know.md).  This can be especially useful
 for developers.
 
-Whether you are a user who wants to know more about IBM Z, or you have a project
+Whether you are a user who wants to know more about the mainframe, or you have a project
 to bring to the platform, we hope you find a home in the Ambitus community.
 
 ## Contributing
