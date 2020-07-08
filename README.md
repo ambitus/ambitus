@@ -1,22 +1,27 @@
 ![](https://github.com/openmainframeproject/artwork/blob/master/projects/ambitus/ambitus-color.svg)
 
 # Ambitus
+The Ambitus project is a community for anyone who wants to understand how open source
+software works on IBM Z (also known as _the mainframe_).  There are more similarities
+than differences between the mainframe and other platforms.  The content provided
+by members of this community should be of use to developers, Linux system
+administrators, and traditional z/OS system programmers.
 
-## Description
-Ambitus is a project for helping port open source software to run on the mainframe architecture ( whether that be under z/OS, Linux for s390x, or any other maintained operating system for the mainframe architecture). The purpose of having this project is to both have a home for the tooling and best practices for porting the open source software, but also managing the full lifecycle of porting such that projects ported can be upstreamed in a sustainable way.
+This project has two major branches:
+- [How-to and example information](./how_to.md) showing how code from other platforms
+  can be developed, deployed and managed for the mainframe.
+- A home for [projects being ported to the mainframe](./ported_projects.md).  These
+  ports are downstream from the original project, and upstream from the IBM Z platform.
+  Developers can make their efforts more visible to others as they work, and share
+  their experiences more easily.  The goal is for teams to upstream their changes over
+  time to the original project, enhancing the adoption of IBM Z as a supported platform.
 
-## Ports
-Ambitus manages ports according to the defined [porting lifecycle](porting_lifecycle.md).
+If you're new to the platform, you may first want to review
+some [things to know about IBM Z](./things_to_know.md).  This can be especially useful
+for developers.
 
-### Incubation
-
-### Active
-
-### Upstreamed
-
-## Tooling
-The following repositories containing tooling that applies to the porting efforts.
-
+Whether you are a user who wants to know more about the mainframe, or you have a project
+to bring to the platform, we hope you find a home in the Ambitus community.
 
 ## Contributing
 You can contribute to any of the porting efforts following the contribution policies defined in each repository.
@@ -24,7 +29,7 @@ You can contribute to any of the porting efforts following the contribution poli
 All tooling can be contributed to using the guidelines at [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
-All ports retain the license of thier respective upstream projects.
+All ports retain the license of their respective upstream projects.
 
 All tooling is licensed under the [Apache 2 license](https://spdx.org/licenses/Apache-2.0.html), and any documentation and non-code will be received and made available under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
@@ -32,6 +37,6 @@ All tooling is licensed under the [Apache 2 license](https://spdx.org/licenses/A
 Ambitus is a project hosted by the [Open Mainframe Project](https://openmainframeproject.org). This project has established it's own processes for managing day-to-day processes in the project at [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Reporting Issues
-To report a problem, you can open an issue in respective repositry. If the issue is senstive in nature or a security related issue, please do not report in the issue tracker but instead email ambitus-private@lists.openmainframeproject.org.
+To report a problem, you can open an issue in respective repository. If the issue is sensitive in nature or a security related issue, please do not report in the issue tracker but instead email ambitus-private@lists.openmainframeproject.org.
 
 For ports at the Upstreamed stage, please report any issues to the respective upstream project.
