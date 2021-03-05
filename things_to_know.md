@@ -34,12 +34,12 @@ are all supported, and the ```S390X``` architecture is a supported platform by s
 source projects.
 
 ### The Mainframe has a Big Endian Byte Order
-Mainframe hardware stores the more significant bytes of a number in higher locations
+Mainframe hardware stores the more significant bytes of a number in _lower_ locations
 of the memory occupied by that number.  For example, if you have a 32 bit integer
 (4 bytes long), located at address _**a**_, the most significant byte of the number
-will be located at _**a+3**_, the second most at _**a+2**_, the third most
-at _**a+1**_, and the least significant byte will be at location _**a**_ in memory.
-In other words, the least significant byte is at the lowest memory address.
+will be located at _**a**_, the second most at _**a+1**_, the third most
+at _**a+2**_, and the least significant byte will be at location _**a+3**_ in memory.
+In other words, the least significant byte is at the _highest_ memory address.
 
 Also referred to as _endianness_, you can read a deeper explanation of byte
 ordering [here](https://en.wikipedia.org/wiki/Endianness).
