@@ -1,27 +1,33 @@
-![](https://github.com/openmainframeproject/artwork/blob/master/projects/ambitus/ambitus-color.svg)
+![](./images/ambitus_logo.png)
 
 # Ambitus
-The Ambitus project is a community for anyone who wants to understand how open source
-software works on IBM Z (also known as _the mainframe_).  There are more similarities
-than differences between the mainframe and other platforms.  The content provided
-by members of this community should be of use to developers, Linux system
-administrators, and traditional z/OS system programmers.
+The Ambitus project is a community for developers of open source software for z/OS
+or Linux on IBM Z.  The repositories here accommodate teams working on larger projects, 
+while smaller efforts may be a hosted in the [pyzkiln](https://github.com/ambitus/pyzkiln) 
+repository.  Developers, data scientists, Linux system administrators, and traditional 
+z/OS system programmers may all find resources to use here.
 
-This project has two major branches:
-- [How-to and example information](./how_to.md) showing how code from other platforms
-  can be developed, deployed and managed for the mainframe.
-- A home for [projects being ported to the mainframe](./ported_projects.md).  These
-  ports are downstream from the original project, and upstream from the IBM Z platform.
-  Developers can make their efforts more visible to others as they work, and share
-  their experiences more easily.  The goal is for teams to upstream their changes over
-  time to the original project, enhancing the adoption of IBM Z as a supported platform.
+Key repositories in this organization include:
+- [AI on Z Solution Templates](https://github.com/ambitus/aionz-solution-templates)
+- [cbexplorer](https://github.com/ambitus/cbexplorer) - z/OS control block explorer
+- [pyracf](https://github.com/ambitus/pyracf) - Python interface to RACF
+- [pyzkiln](https://github.com/ambitus/pyzkiln) - A collection of Python building blocks
+- [ztron](https://github.com/ambitus/zml) - A lightweight automation and logging 
+pipeline for z/OS
+- [zml](https://github.com/ambitus/zTron) - Z markup language specification
 
-If you're new to the platform, you may first want to review
-some [things to know about IBM Z](./things_to_know.md).  This can be especially useful
-for developers.
+Documentation and reference information can be found in the [doc](./doc/README.md)
 
-Whether you are a user who wants to know more about the mainframe, or you have a project
-to bring to the platform, we hope you find a home in the Ambitus community.
+We have several friends and social groups in the mainframe community that you might
+like to connect to as well:
+
+- The [System Z Enthusiasts](https://discord.com/servers/system-z-enthusiasts-880322471608344597) Discord channel
+- [Therapod Blog](https://medium.com/theropod) on Medium
+- [Terminal Talk podcast](https://www.terminaltalk.net/) - Frank and Jeff talk 
+with members of the mainframe community
+- [TFiR Mainframe Matters](https://youtube.com/playlist?list=PLqJap3FMiIH8vb5pi1InruLFZouPGdz_M&si=A-kTWRUBIYWZtKXu) - from TFiR Media
+- [z/OS Open Tools](https://github.com/ZOSOpenTools/) - for ported 
+infrastructure and tooling on z/OS
 
 ## Contributing
 You can contribute to any of the porting efforts following the contribution policies defined in each repository.

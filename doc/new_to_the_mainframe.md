@@ -1,18 +1,10 @@
-# Things to Know About the Mainframe and Open Source
+# Things to Know About the Mainframe
 The term mainframe today generally refers to IBM's z architecture hardware and
 associated operating systems and software.  The mainframe is similar to, and different
-from other platforms in many ways.  Here are some things to know, depending on your role:
-
-- [New to the platform](#mainframe-platform-characteristics), need to know what the mainframe is
-- [A veteran mainframer](#open-source-software-characteristics), need to understand open source software
-
------
-
-## Mainframe Platform Characteristics
-The long history of the mainframe often obscures the state-of-the-art features that
-the mainframe community continues to develop.  It's not an overstatement to point
-out that many key technologies we take for granted as developers, architects, and
-administrators originated on the mainframe.
+from other platforms in many ways.  The long history of the mainframe often obscures 
+the state-of-the-art features that the mainframe community continues to develop.  It's 
+not an overstatement to point out that many key technologies we take for granted as 
+developers, architects, and administrators originated on the mainframe.
 
 ### The Mainframe is a Hardware and Software Family
 [IBM Z](https://www.ibm.com/it-infrastructure/z) is a set of hardware models and a
@@ -110,20 +102,3 @@ a full Docker environment in an address space.  This allows developers to create
 container images on either operating system, and deploy on the other.  Such
 interoperability across environments gives developers and architects more flexibility
 to configure workloads most efficiently.
-
------
-
-## Open Source Software Characteristics
-Many open source projects have achieved a level of maturity comparable to the best
-proprietary commercial offerings.  The open world today is much less about a specific
-project or technology stack, and more about the vast organization of technical talent
-across communities, companies, and individuals.  This is where modern standards,
-policies, and best practices are born.
-
-### Everything is Integrated and Continuous
-
-### Security is important
-
-### Software and Package Management
-
-### A Bootstrap Sandbox Environment
