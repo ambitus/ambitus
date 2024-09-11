@@ -15,5 +15,8 @@ so users can understand the function contained in the package.  Version IDs shou
 be provided as release notes, CHANGELOG, NEWS, discussion group announcement, or something similar.  
 The key is being in a human-readable form rather than something like raw git log output.
 - Release notes for a project must list all CVEs that the release resolves.
+- Each project will have a security policy in ```SECURITY.md```, and provide a means to report 
+security vulnerabilities privately.  Both of these can be enabled in Github Security overview
+settings.
 
 If you have any questions or concerns - feel free to reach out to ambitus-discussion@lists.openmainframeproject.org.
