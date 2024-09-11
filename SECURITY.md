@@ -8,16 +8,21 @@ See ```SECURITY.md``` in the associated respository for each project for details
 about the project's supported versions.
 
 ## Supported Versions
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Please note that this repository contains the common Ambitus project information 
+and overall status.  It does not have an associated installable code set.  For 
+the purposes of establishing a common structure for the project, it does have 
+an associated release that is supported.  
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0.1   | :white_check_mark: |
+| 1.0.0   | :white_check_mark: |
 
 ## Reporting a Vulnerability
-Use this section to tell people how to report a vulnerability.
+If you discover a vulnerability in the contents of this repository, please 
+consider opening an [issue](https://github.com/ambitus/ambitus/issues) describing 
+the problem.  If you wish to identify the problem privately, you may open a 
+[private security advisory](https://github.com/ambitus/ambitus/security/advisories) 
+to communicate directly with the team.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Vulnerabilities will be addressed within 2 weeks, using the channel (public issue or 
+private advisory) where the issue was identified.  
