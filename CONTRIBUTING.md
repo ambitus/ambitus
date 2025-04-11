@@ -25,9 +25,11 @@ This repository is using a combination of the following tools. Both can be insta
 It is recommended and is easier to use these as VSCode Extensions. PR checking is enabled to make sure that the linting has happened. PR reviews will expose Prettier not being used.
 
 ### VSCode Extensions
+
 - [MarkdownLint VSCode Extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Prettier VSCode Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ### Instructions for an NPM install
+
 - [MarkdownLint CLI Installation](https://github.com/DavidAnson/markdownlint-cli2)
 - [Prettier CLI Installation](https://prettier.io/docs/install)
