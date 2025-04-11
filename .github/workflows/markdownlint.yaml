@@ -30,6 +30,8 @@ jobs:
     #     cache: 'npm'
     - name: markdownlint-cli2-action
       uses: DavidAnson/markdownlint-cli2-action@v9
+      with:
+        config: .markdownlint-cli2.yaml
     # - run: npm ci
     # - run: npm run build --if-present
     # - run: npm test
