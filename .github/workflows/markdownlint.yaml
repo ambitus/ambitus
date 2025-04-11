@@ -29,7 +29,7 @@ jobs:
     #     node-version: ${{ matrix.node-version }}
     #     cache: 'npm'
     - name: markdownlint-cli2-action
-      uses: DavidAnson/markdownlint-cli2-action@v9
+      uses: DavidAnson/markdownlint-cli2-action@v19.1.0
       with:
         config: .markdownlint-cli2.yaml
     # - run: npm ci
