@@ -2,6 +2,8 @@
 
 ![Ambitus Logo](./images/ambitus_logo.png)
 
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/6264/badge)](https://www.bestpractices.dev/projects/6264)
+
 The Ambitus project is a community for developers of open source software for z/OS or Linux on IBM Z.  The repositories here accommodate teams working on larger projects, while smaller efforts may be a hosted in the [pyzkiln](https://github.com/ambitus/pyzkiln)
 
 repository.  Developers, data scientists, Linux system administrators, and traditional z/OS system programmers may all find resources to use here.
