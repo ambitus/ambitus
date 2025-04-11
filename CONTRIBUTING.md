@@ -18,11 +18,13 @@ If you have any questions or concerns - feel free to reach out to [ambitus-discu
 
 ## Contributions to the Ambitus Repo
 
-If you'd like to make a commit to the Ambitus repo itself there are a couple of additional things that you'll need to be aware of.
+If you'd like to make a commit to the Ambitus repo itself, there are a couple of additional things that you'll need to be aware of in addition to what's above.
 
 This repository is using a combination of the following tools. Both can be installed with VSCode as extensions or standalone.
 
 It is recommended and is easier to use these as VSCode Extensions. PR checking is enabled to make sure that the linting has happened. PR reviews will expose Prettier not being used.
+
+**Note: For MarkdownLint we ignore rule `MD013`. There is a lot of debate about line length in documentation. We recommend that you don't break lines up for the sake of following that rule. Use your editor's line wrap instead.*
 
 ### VSCode Extensions
 
